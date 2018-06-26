@@ -1,2 +1,1 @@
-# advanced-english
-Learning English advanced words for Ukrainians
+Learning English advanced words for Ukrainians powered by React-native

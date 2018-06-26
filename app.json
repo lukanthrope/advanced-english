@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "sdkVersion": "27.0.0",
+    "orientation": "portrait",
+    "slug": "advanced-eng",
+    "name": "Англійська мова Advanced",
+    "privacy": "public",
+    "android": {
+      "package": "com.seniorwheeldeveloper.advancedeng",
+      "permissions": [""],
+    }
+  }
+}

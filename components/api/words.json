@@ -1,0 +1,482 @@
+{
+	"aberration": {
+		"ua": "відхилення",
+		"transcription": "[ˌæbəˈreɪʃ(ə)n]"
+	},
+	"abhor": {
+		"ua": "відчувати відразу",
+		"transcription": "[əbˈhɔː]"
+	},
+	"acquiesce": {
+		"ua": "погодитися",
+		"transcription": "[ˌækwɪˈɛs]"
+	},
+	"alacrity": {
+		"ua": "доброчинність",
+		"transcription": "[əˈlækrɪti]"
+	},
+	"amiable": {
+		"ua": "люб'язний",
+		"transcription": "[ˈeɪmiəb(ə)l]"
+	},
+	"appease": {
+		"ua": "заспокоїтись",
+		"transcription": "[əˈpiːz]"
+	},
+	"arcane": {
+		"ua": "таємний, містичний",
+		"transcription": "[ɑːˈkeɪn]"
+	},
+	"avarice": {
+		"ua": "жадібність",
+		"transcription": "[ˈævərɪs]"
+	},
+	"brazen": {
+		"ua": "нахабний",
+		"transcription": "[ˈbreɪzn]"
+	},
+	"brusque": {
+		"ua": "брусковий",
+		"transcription": "[brʊsk]"
+	},
+	"callous": {
+		"ua": "нахабний",
+		"transcription": "[ˈkæləs]"
+	},
+	"candor": {
+		"ua": "відвертість",
+		"transcription": "[ˈkændə]"
+	},
+	"chide": {
+		"ua": "ходити",
+		"transcription": "[ʧaɪd]"
+	},
+	"circumspect": {
+		"ua": "обачний",
+		"transcription": "[ˈsɜːkəmspɛkt]"
+	},
+	"clandestine": {
+		"ua": "таємний",
+		"transcription": "[klænˈdɛstɪn]"
+	},
+	"coerce": {
+		"ua": "примус",
+		"transcription": "[kəʊˈɜːs]"
+	},
+	"coherent": {
+		"ua": "узгоджений",
+		"transcription": "[kəʊˈhɪərənt]"
+	},
+	"complacency": {
+		"ua": "самовдоволення",
+		"transcription": "[kəmˈpleɪsnʌsi]"
+	},
+	"confidant": {
+		"ua": "довірена особа",
+		"transcription": "[ˌkɒnfɪˈdænt]"
+	},
+	"connive": {
+		"ua": "спокуслий",
+		"transcription": "[kəˈnaɪv]"
+	},
+	"cumulative": {
+		"ua": "кумулятивний",
+		"transcription": "[ˈkjuːmjʊlətɪv]"
+	},
+	"debase": {
+		"ua": "зневажувати",
+		"transcription": "[dɪˈbeɪs]"
+	},
+	"decry": {
+		"ua": "загубити",
+		"transcription": "[dɪˈkraɪ]"
+	},
+	"deferential": {
+		"ua": "пошану",
+		"transcription": "[ˌdɛfəˈrɛnʃəl]"
+	},
+	"demure": {
+		"ua": "безглузда",
+		"transcription": "[dɪˈmjʊə]"
+	},
+	"deride": {
+		"ua": "висміювати",
+		"transcription": "[dɪˈraɪd]"
+	},
+	"despot": {
+		"ua": "деспот",
+		"transcription": "[ˈdɛspɒt]"
+	},
+	"diligent": {
+		"ua": "старанний",
+		"transcription": "[ˈdɪlɪʤənt]"
+	},
+	"elated": {
+		"ua": "піднесений",
+		"transcription": "[ɪˈleɪtɪd]"
+	},
+	"eloquent": {
+		"ua": "красномовний",
+		"transcription": "[ˈɛləʊkwənt]"
+	},
+	"embezzle": {
+		"ua": "розграбувати",
+		"transcription": "[ɪmˈbɛzl]"
+	},
+	"empathy": {
+		"ua": "співпереживання",
+		"transcription": "[ˈɛmpəθi]"
+	},
+	"enmity": {
+		"ua": "ворожнеча",
+		"transcription": "[ˈɛnmɪti]"
+	},
+	"erudite": {
+		"ua": "ерудований",
+		"transcription": "[ˈɛru(ː)daɪt]"
+	},
+	"fabricate": {
+		"ua": "виготовити",
+		"transcription": "[ˈfæbrɪkeɪt]"
+	},
+	"feral": {
+		"ua": "дикий",
+		"transcription": "[ˈfɪərəl]"
+	},
+	"flabbergasted": {
+		"ua": "похмурий",
+		"transcription": "[ˈflæbəgɑːstɪd]"
+	},
+	"forsake": {
+		"ua": "залишитись",
+		"transcription": "[fəˈseɪk]"
+	},
+	"fractious": {
+		"ua": "запеклий",
+		"transcription": "[ˈfrækʃəs]"
+	},
+	"furtive": {
+		"ua": "непристойний",
+		"transcription": "[ˈfɜːtɪv]"
+	},
+	"gluttony": {
+		"ua": "обжерливість",
+		"transcription": "[ˈglʌtni]"
+	},
+	"gratuitous": {
+		"ua": "безоплатно",
+		"transcription": "[grəˈtju(ː)ɪtəs]"
+	},
+	"haughty": {
+		"ua": "пихатий",
+		"transcription": "[ˈhɔːti]"
+	},
+	"hypocrisy": {
+		"ua": "лицемірство",
+		"transcription": "[hɪˈpɒkrəsi]"
+	},
+	"impeccable": {
+		"ua": "бездоганний",
+		"transcription": "[ɪmˈpɛkəbl]"
+	},
+	"impertinent": {
+		"ua": "непристойний",
+		"transcription": "[ɪmˈpɜːtɪnənt]"
+	},
+	"implacable": {
+		"ua": "непримиренний",
+		"transcription": "[ɪmˈplækəbl]"
+	},
+	"impudent": {
+		"ua": "нахабний",
+		"transcription": "[ˈɪmpjʊdənt]"
+	},
+	"incisive": {
+		"ua": "різке",
+		"transcription": "[ɪnˈsaɪsɪv]"
+	},
+	"indolent": {
+		"ua": "тупий",
+		"transcription": "[ˈɪndələnt]"
+	},
+	"inept": {
+		"ua": "невмілий",
+		"transcription": "[ɪˈnɛpt]"
+	},
+	"infamy": {
+		"ua": "ганебна шкода",
+		"transcription": "[ˈɪnfəmi]"
+	},
+	"inhibit": {
+		"ua": "гальмувати",
+		"transcription": "[ɪnˈhɪbɪt]"
+	},
+	"innate": {
+		"ua": "вроджений",
+		"transcription": "[ɪˈneɪt]"
+	},
+	"insatiable": {
+		"ua": "ненаситний",
+		"transcription": "[ɪnˈseɪʃəb(ə)l]"
+	},
+	"insular": {
+		"ua": "острівний",
+		"transcription": "[ˈɪnsjʊlə]"
+	},
+	"intrepid": {
+		"ua": "безстрашний",
+		"transcription": "[ɪnˈtrɛpɪd]"
+	},
+	"inveterate": {
+		"ua": "затишний",
+		"transcription": "[ɪnˈvɛtərɪt]"
+	},
+	"jubilant": {
+		"ua": "радість",
+		"transcription": "[ˈʤuːbɪlənt]"
+	},
+	"knell": {
+		"ua": "крюк",
+		"transcription": "[nɛl]"
+	},
+	"lithe": {
+		"ua": "літха",
+		"transcription": "[laɪð]"
+	},
+	"lurid": {
+		"ua": "крихітний",
+		"transcription": "[ˈljʊərɪd]"
+	},
+	"maverick": {
+		"ua": "маврик",
+		"transcription": "[ˈmævərɪk]"
+	},
+	"maxim": {
+		"ua": "максимум",
+		"transcription": "[ˈmæksɪm]"
+	},
+	"meticulous": {
+		"ua": "ретельний",
+		"transcription": "[mɪˈtɪkjʊləs]"
+	},
+	"modicum": {
+		"ua": "модікум",
+		"transcription": "[ˈmɒdɪkəm]"
+	},
+	"morose": {
+		"ua": "мороза",
+		"transcription": "[məˈrəʊs]"
+	},
+	"myriad": {
+		"ua": "безліч",
+		"transcription": "[ˈmɪrɪəd]"
+	},
+	"nadir": {
+		"ua": "надир",
+		"transcription": "[ˈneɪdɪə]"
+	},
+	"nominal": {
+		"ua": "номінальна",
+		"transcription": "[ˈnɒmɪnl]"
+	},
+	"novice": {
+		"ua": "початківець",
+		"transcription": "[ˈnɒvɪs]"
+	},
+	"nuance": {
+		"ua": "нюанс",
+		"transcription": "[nju(ː)ˈɑːns]"
+	},
+	"oblivious": {
+		"ua": "не забувай",
+		"transcription": "[əˈblɪvɪəs]"
+	},
+	"obsequious": {
+		"ua": "підступний",
+		"transcription": "[əbˈsiːkwɪəs]"
+	},
+	"obtuse": {
+		"ua": "тупою",
+		"transcription": "[əbˈtjuːs]"
+	},
+	"panacea": {
+		"ua": "панацея",
+		"transcription": "[ˌpænəˈsɪə]"
+	},
+	"parody": {
+		"ua": "пародія",
+		"transcription": "[ˈpærədi]"
+	},
+	"penchant": {
+		"ua": "схильність",
+		"transcription": "[ˈpɑːŋʃɑːŋ]"
+	},
+	"perusal": {
+		"ua": "прочитання",
+		"transcription": "[pəˈruːzəl]"
+	},
+	"plethora": {
+		"ua": "безліч",
+		"transcription": "[ˈplɛθərə]"
+	},
+	"predilection": {
+		"ua": "пристрасть",
+		"transcription": "[ˌpriːdɪˈlɛkʃən]"
+	},
+	"quaint": {
+		"ua": "приємний",
+		"transcription": "[kweɪnt]"
+	},
+	"rash": {
+		"ua": "висип",
+		"transcription": "[ræʃ]"
+	},
+	"refurbish": {
+		"ua": "реконструювати",
+		"transcription": "[ˌriːˈfɜːbɪʃ]"
+	},
+	"repudiate": {
+		"ua": "відмовитись",
+		"transcription": "[rɪˈpjuːdɪeɪt]"
+	},
+	"rife": {
+		"ua": "рясний",
+		"transcription": "[raɪf]"
+	},
+	"salient": {
+		"ua": "характерний",
+		"transcription": "[ˈseɪliənt]"
+	},
+	"serendipity": {
+		"ua": "serendipity",
+		"transcription": "[ˌsɛrɛnˈdɪpəti]"
+	},
+	"staid": {
+		"ua": "Стадіон",
+		"transcription": "[steɪd]"
+	},
+	"superfluous": {
+		"ua": "зайвий",
+		"transcription": "[sju(ː)ˈpɜːflʊəs]"
+	},
+	"sycophant": {
+		"ua": "сикофант",
+		"transcription": "[ˈsɪkəfənt]"
+	},
+	"taciturn": {
+		"ua": "мовчазна",
+		"transcription": "[ˈtæsɪtɜːn]"
+	},
+	"truculent": {
+		"ua": "трюмальний",
+		"transcription": "[ˈtrʌkjʊlənt]"
+	},
+	"umbrage": {
+		"ua": "знущання",
+		"transcription": "[ˈʌmbrɪʤ]"
+	},
+	"venerable": {
+		"ua": "поважний",
+		"transcription": "[ˈvɛnərəbl]"
+	},
+	"vex": {
+		"ua": "вихор",
+		"transcription": "[vɛks]"
+	},
+	"vociferous": {
+		"ua": "гучний",
+		"transcription": "[vəʊˈsɪfərəs]"
+	},
+	"wanton": {
+		"ua": "безглуздий",
+		"transcription": "[ˈwɒntən]"
+	},
+	"zenith": {
+		"ua": "зеніт",
+		"transcription": "[ˈzɛnɪθ]"
+	},
+	"yell": {
+		"ua": "крикнути",
+		"transcription": "[jɛl]"
+	},
+	"shriek": {
+		"ua": "крикнути",
+		"transcription": "[ʃriːk]"
+	},
+	"cheer": {
+		"ua": "підбадьорити",
+		"transcription": "[ʧɪə]"
+	},
+	"whisper": {
+		"ua": "шепотіти",
+		"transcription": "[ˈwɪspə]"
+	},
+	"mumble": {
+		"ua": "бурмотіти",
+		"transcription": "[ˈmʌmbl]"
+	},
+	"mutter": {
+		"ua": "бурмотіти",
+		"transcription": "[ˈmʌtə]"
+	},
+	"whine": {
+		"ua": "нити",
+		"transcription": "[waɪn]"
+	},
+	"ramble": {
+		"ua": "говорити не зв'язно",
+		"transcription": "[ˈræmbl]"
+	},
+	"chat": {
+		"ua": "теревенити",
+		"transcription": "[ʧæt]"
+	},
+	"stutter": {
+		"ua": "заїкатися",
+		"transcription": "[ˈstʌtə]"
+	},
+	"gossip": {
+		"ua": "пліткувати",
+		"transcription": "[ˈgɒsɪp]"
+	},
+	"paralyzed": {
+		"ua": "паралізований",
+		"transcription": "[ˈpærəlaɪzd]"
+	},
+	"melting": {
+		"ua": "танучий",
+		"transcription": "[ˈmɛltɪŋ]"
+	},
+	"tremble": {
+		"ua": "тремтить",
+		"transcription": "[ˈtrɛmbl]"
+	},
+	"squawking": {
+		"ua": "скрипучий",
+		"transcription": "[ˈskwɔːkɪŋ]"
+	},
+	"wail": {
+		"ua": "кричати",
+		"transcription": "[weɪl]"
+	},
+	"suspicious": {
+		"ua": "підозрілий",
+		"transcription": "[səsˈpɪʃəs]"
+	},
+	"flaming": {
+		"ua": "палаючий",
+		"transcription": "[ˈfleɪmɪŋ]"
+	},
+	"illusions": {
+		"ua": "ілюзії",
+		"transcription": "[ɪˈluːʒənz]"
+	},
+	"reflection": {
+		"ua": "вдумливість, медитація",
+		"transcription": "[rɪˈflɛkʃən]"
+	},
+	"chain": {
+		"ua": "ланцюг",
+		"transcription": "[ʧeɪn]"
+	}
+}
