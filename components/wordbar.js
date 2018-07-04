@@ -6,7 +6,8 @@ import {
   AsyncStorage,
   ScrollView,
   ActivityIndicator,
-  Dimensions
+  Dimensions,
+  Alert
 } from 'react-native';
 
 const api = require('./api/words.json');
@@ -16,13 +17,15 @@ export default class Wordbar extends React.Component {
     super(props);
     this.state = {
       actIn: false,
-      words: Object.keys(api)
+      words: Object.keys(api),
+      styles: [{},{},{},{}]
     };
 
     this.currentWords = [];
     this.oldWords = [];
     this.word;
     this.uaList;
+    this.count;
 
     this.Random = this.Random.bind(this);
     this.shuffleArray = this.shuffleArray.bind(this);
@@ -44,14 +47,27 @@ export default class Wordbar extends React.Component {
     }
   }
 
-  handlePress(e) {
-    this.setState(() => ({actIn: true}));
+  handlePress(e, key) {
+    if (e === api[this.word].ua) {
+      this.setState(() => ({actIn: true}));
 
-    setTimeout(() => {
-      this.setState(() => ({actIn: false}));
-    }, 500);
+      setTimeout(() => {
+        this.setState(() => ({actIn: false}));
+      }, 250);
 
-    this.randomWord();
+      let supp = this.state.styles;
+
+      for (let i = 0; i < 4; i++) {
+        supp[i] = {};
+      }
+      
+      this.randomWord();
+    } else {
+      let supp = this.state.styles;
+      supp[key] = {color: 'red'};
+
+      this.setState(() => ({styles: supp}))
+    }
 
     console.log(e)
   }
@@ -106,7 +122,6 @@ export default class Wordbar extends React.Component {
     this.fetchWords();
     this.currStateSet();
     this.randomWord();
-    console.log(this.uaList);
   }
 
   render() {
@@ -126,12 +141,12 @@ export default class Wordbar extends React.Component {
         </Text>
 
          {
-          this.uaList.map(( item ) =>
+          this.uaList.map((item, key) =>
            (
              <Text
-               onPress={() => this.handlePress(item)}
+               onPress={() => this.handlePress(item, key)}
                key={item}
-               style={[this.props.wordStyle, styles.answer]}
+               style={[this.props.wordStyle, styles.answer, this.state.styles[key]]}
                >
                { item }
              </Text>

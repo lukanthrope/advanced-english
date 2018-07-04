@@ -6,7 +6,8 @@ import {
   AsyncStorage,
   TouchableOpacity,
   ActivityIndicator,
-  Dimensions
+  Dimensions,
+  BackHandler
 } from 'react-native';
 
 import Wordbar from './wordbar';
@@ -80,9 +81,13 @@ export default class Learning extends React.Component {
       this.setState({
         showMe: false
       });
-    }, 900);
+    }, 2000);
 
     this.Loading();
+  }
+
+  exitFunction = () => {
+    BackHandler.exitApp();
   }
 
   render() {
@@ -97,14 +102,23 @@ export default class Learning extends React.Component {
 
         { Dimensions.get('window').height > 400 &&
           <View style={styles.bottomView}>
-            <Text style={styles.menu}>score</Text>
+            <Text
+              style={[styles.menu, {color: 'red'}]}
+              onPress={this.exitFunction}
+              >
+              Exit
+            </Text>
 
             <TouchableOpacity
               style={[styles.button, this.state.styles.style3]}
               onPress={this.ChangeColor}
               />
-
-            <Text style={[styles.menu, {color: 'red'}]}>skip</Text>
+            <Text 
+              style={styles.menu}
+              onPress={() => alert('100500%')}
+              >
+              score
+            </Text>
           </View>
         }
       </View>
@@ -139,8 +153,8 @@ const styles = StyleSheet.create({
   button: {
     height: 53,
     width: '18%',
-    marginLeft: '10%',
-    marginRight: '12%',
+    marginLeft: '14%',
+    marginRight: '10%',
     borderRadius: 1,
   },
   menu: {
