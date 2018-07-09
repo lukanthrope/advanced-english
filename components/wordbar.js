@@ -17,22 +17,17 @@ export default class Wordbar extends React.Component {
     super(props);
     this.state = {
       actIn: false,
-      words: Object.keys(api),
       styles: [{},{},{},{}]
     };
 
-    this.currentWords = [];
-    this.oldWords = [];
+    this.currentWords = Object.keys(api);
     this.word;
     this.uaList;
-    this.count;
 
     this.Random = this.Random.bind(this);
     this.shuffleArray = this.shuffleArray.bind(this);
 
     this.handlePress = this.handlePress.bind(this);
-    this.fetchWords = this.fetchWords.bind(this);
-    this.currStateSet = this.currStateSet.bind(this);
     this.randomWord = this.randomWord.bind(this);
   }
 
@@ -60,7 +55,7 @@ export default class Wordbar extends React.Component {
       for (let i = 0; i < 4; i++) {
         supp[i] = {};
       }
-      
+
       this.randomWord();
     } else {
       let supp = this.state.styles;
@@ -68,31 +63,6 @@ export default class Wordbar extends React.Component {
 
       this.setState(() => ({styles: supp}))
     }
-
-    console.log(e)
-  }
-
-  fetchWords = async () => {
-    try {
-      const wordList = await AsyncStorage.getItem('wordList');
-
-      if (wordList == null) {
-        return 0;
-      } else {
-        this.setState(() => ({words: wordList}));
-      }
-    }
-
-    catch(err) {
-      console.log(err);
-    }
-  }
-
-  currStateSet() {
-    var currState = this.state.words;
-    currState.length = 8;
-
-    this.currentWords = currState;
   }
 
   randomWord() {
@@ -119,14 +89,10 @@ export default class Wordbar extends React.Component {
   }
 
   componentWillMount() {
-    this.fetchWords();
-    this.currStateSet();
     this.randomWord();
   }
 
   render() {
-  console.log(this.currentWords);
-
     return (
       <View>
         <Text style={[this.props.wordStyle, styles.text]}>{this.word.toUpperCase()}</Text>

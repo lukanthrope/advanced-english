@@ -102,23 +102,26 @@ export default class Learning extends React.Component {
 
         { Dimensions.get('window').height > 400 &&
           <View style={styles.bottomView}>
-            <Text
-              style={[styles.menu, {color: 'red'}]}
-              onPress={this.exitFunction}
-              >
-              Exit
-            </Text>
-
+            <View style={styles.view}>
+              <Text
+                style={[styles.menu, {color: 'red'}]}
+                onPress={this.exitFunction}
+                >
+                Exit
+              </Text>
+            </View>
             <TouchableOpacity
               style={[styles.button, this.state.styles.style3]}
               onPress={this.ChangeColor}
               />
-            <Text 
-              style={styles.menu}
-              onPress={() => alert('100500%')}
-              >
-              score
-            </Text>
+            <View style={styles.view}>
+              <Text 
+                style={[styles.menu]}
+                onPress={() => alert('100500%')}
+                >
+                alert ON
+              </Text>
+            </View>
           </View>
         }
       </View>
@@ -153,11 +156,13 @@ const styles = StyleSheet.create({
   button: {
     height: 53,
     width: '18%',
-    marginLeft: '14%',
-    marginRight: '10%',
-    borderRadius: 1,
+    borderRadius: 1
   },
   menu: {
-    fontSize: 20
+    fontSize: 20,
+    textAlign: 'center'
+  },
+  view: {
+    width: '35%'
   }
 });
