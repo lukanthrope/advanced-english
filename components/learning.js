@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 
 import Wordbar from './wordbar';
+import Settings from './settings';
 
 export default class Learning extends React.Component {
   constructor(props) {
@@ -21,13 +22,15 @@ export default class Learning extends React.Component {
         style2: {backgroundColor: 'white'},
         style3: {backgroundColor: '#484848'}
       },
-      showMe: true
+      showMe: true,
+      showSets: false
     };
 
     this.ChangeColor = this.ChangeColor.bind(this);
     this.ColorDark = this.ColorDark.bind(this);
     this.ColorLight = this.ColorLight.bind(this);
     this.Loading = this.Loading.bind(this);
+    this.showSettins = this.showSettins.bind(this);
   }
 
   ColorDark() {
@@ -76,6 +79,12 @@ export default class Learning extends React.Component {
     }
   }
 
+  showSettins() {
+    this.setState(prev => ({
+      showSets: !prev.showSets
+    }));
+  }
+
   componentWillMount() {
     setTimeout(() => {
       this.setState({
@@ -99,6 +108,7 @@ export default class Learning extends React.Component {
       <View style={[styles.container, this.state.styles.style2]}>
 
         <Wordbar wordStyle={[styles.text, this.state.styles.style]}/>
+        {this.state.showSets && <Settings />}
 
         { Dimensions.get('window').height > 400 &&
           <View style={styles.bottomView}>
@@ -117,9 +127,9 @@ export default class Learning extends React.Component {
             <View style={styles.view}>
               <Text 
                 style={[styles.menu]}
-                onPress={() => alert('100500%')}
+                onPress={this.showSettins}
                 >
-                alert ON
+                settings
               </Text>
             </View>
           </View>

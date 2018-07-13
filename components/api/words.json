@@ -148,7 +148,7 @@
 		"transcription": "[ˈflæbəgɑːstɪd]"
 	},
 	"forsake": {
-		"ua": "залишитись",
+		"ua": "відмовитися від",
 		"transcription": "[fəˈseɪk]"
 	},
 	"fractious": {
@@ -272,7 +272,7 @@
 		"transcription": "[ˈmɪrɪəd]"
 	},
 	"nadir": {
-		"ua": "надир",
+		"ua": "найнижчий рівень,надир",
 		"transcription": "[ˈneɪdɪə]"
 	},
 	"nominal": {
@@ -347,12 +347,8 @@
 		"ua": "характерний",
 		"transcription": "[ˈseɪliənt]"
 	},
-	"serendipity": {
-		"ua": "serendipity",
-		"transcription": "[ˌsɛrɛnˈdɪpəti]"
-	},
 	"staid": {
-		"ua": "Стадіон",
+		"ua": "стадіон",
 		"transcription": "[steɪd]"
 	},
 	"superfluous": {

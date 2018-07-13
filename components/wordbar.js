@@ -6,8 +6,7 @@ import {
   AsyncStorage,
   ScrollView,
   ActivityIndicator,
-  Dimensions,
-  Alert
+  Dimensions
 } from 'react-native';
 
 const api = require('./api/words.json');
@@ -141,8 +140,8 @@ const styles = StyleSheet.create({
     fontSize: Dimensions.get('window').height > 400 ? 25 : 15,
     textAlign: 'center',
     borderWidth:1,
-    paddingLeft: '12%',
-    paddingRight: '12%',
+    paddingLeft: '4%',
+    paddingRight: '4%',
     paddingTop: 3,
     paddingBottom: 3,
     marginBottom: Dimensions.get('window').height > 230 ? 10 : 0,
